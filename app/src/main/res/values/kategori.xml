@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kategori">
+        <item>İktisadi ve İdari Bilimler Fakültesi</item>
+        <item>Mühendislik Fakültesi</item>
+        <item>Ziraat ve Doğa Bilimleri Fakültesi</item>
+        <item>Güzel Sanatlar ve Tasarım Fakültesi</item>
+        <item>İslami İlimler Fakültesi</item>
+        <item>Uygulamalı Bilimler Fakültesi</item>
+        <item>Sağlık Bilimleri Fakültesi</item>
+        <item>Tıp Fakültesi</item>
+        <item>Diş Hekimliği Fakültesi</item>
+        <item>Fen Fakültesi</item>
+        <item>İnsan ve Toplum Fakültesi</item>
+        <item>Meslek Yüksek Okulu</item>
+        <item>Sağlık Meslek Yüksek Okulu</item>
+    </string-array>
+</resources>

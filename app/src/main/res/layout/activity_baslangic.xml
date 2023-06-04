@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".BaslangicActivity">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="354dp"
+        android:layout_height="203dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/grslogo" />
+    <Button
+        android:id="@+id/btn_giris"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="GİRİŞ YAP"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <Button
+        android:id="@+id/btn_kaydol"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/white"
+        android:text="KAYDOL" />
+
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".KaydolActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:src="@drawable/kytlogo"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="15dp"/>
+
+    <EditText
+        android:id="@+id/edt_kullaniciAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"
+        android:hint="Kullanıcı Adı"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edt_Ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"
+        android:hint="Adınız"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/edt_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"
+        android:hint="Email adresiniz"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/edt_Sifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"
+        android:hint="Şifreniz"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btn_Kaydol_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KAYDOL"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txt_girisSayfasina_git"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zaten bir hesabınız var mı? Giriş Yapın"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"/>
+
+</LinearLayout>

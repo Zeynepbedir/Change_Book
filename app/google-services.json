@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "276408466107",
+    "project_id": "cbookapp-6760c",
+    "storage_bucket": "cbookapp-6760c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276408466107:android:c7a486fb33c1eed812479e",
+        "android_client_info": {
+          "package_name": "com.zeynepbedir.changebapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276408466107-lp0fora1hso8ks75bgj3cuns02mlti08.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiizeRf7Bk-vjZs15D07Jtnd2N9dvCdaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276408466107-lp0fora1hso8ks75bgj3cuns02mlti08.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

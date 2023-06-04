@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GonderiActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/bar_Gonderi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_Gonderi"
+            android:background="?android:attr/windowBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/close_Gonderi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/ic_kapat"/>
+
+                <TextView
+                    android:id="@+id/txt_Gonderi"
+                    android:layout_alignParentEnd="true"
+                    android:text="GÖNDER"
+                    android:layout_marginEnd="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/purple_500"/>
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    
+    <LinearLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <ImageView
+            android:id="@+id/eklenen_Resim"
+            android:onClick="resimSec"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/kamera"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/katagori_Gonderi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:minHeight="48dp"
+            android:hint="@string/actvhint"
+            android:completionThreshold="1"
+            android:layout_weight="1"
+            android:text="" />
+        <EditText
+            android:id="@+id/edt_Kitap_adi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="Kitap Adını Giriniz."
+            android:maxLines="2"
+            android:minHeight="48dp" />
+        <EditText
+            android:id="@+id/edt_Kitap_Hakkinda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="Kitap Bilgilerini Giriniz."
+            android:maxLines="5"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/edt_kitap_fiyat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="Fiyat Bilgisini Giriniz"
+            android:inputType="number"
+            android:minHeight="48dp" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
